@@ -1,9 +1,10 @@
-Feature: Search the Web
+Feature: Search NICE pathways
 
-  As a human
-  I want to search the web
-  So I can find information
+  As a user
+  I want to search NICE pathways
+  So I can find information about low back pain
 
+  @watch
   Scenario: Go to NICE pathways
     Given I have visited the NICE website
     When I click NICE Pathways
